@@ -15,14 +15,14 @@
     
     }
     #super{
-    background-color:green;
+    background-color:red;
     }
     #red{
         
-        background-color:green;
+        background-color:red;
         
     }
-    #cool{background-color:green;}
+    #cool{background-color:red;}
     body {
       margin: 0;
       background-color:black;
@@ -114,6 +114,17 @@
     .dropdown:hover .dropdown-content {
       display: block;
     }
+    .column {
+  float: left;
+  width: 15%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 </style>
 
@@ -143,18 +154,13 @@
           </div> 
         <h1>Baymax Pages</h1>
         <img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png"width="203"/>
-        <h2 id="super">My things I like to do when you travel to places</h2>
-    <h4 id="colors"> I recomend you to go to Hawaii because of it's <em>weather.</em>It is a very nice trip and a lot of people have fun on it so I really hope if you can you should visit Hawaii it is a place I really want to go.
-One thing I like to do is sometimes when your traveling to a place. That you have never been too you should bring a notebook and write things on the trip that you learned. a You can ssalso take pictures and make a small research report on the place that you went to, but you don't have to do it it is just a bouns thing. I like to do even Don't always write about the trip.  </h4>
         
-        <h2 id="red">More about hawaii</h2>
+        <h2 id="red">Facts about Hawaii</h2>
         <h4  id="baymax">Hawaii is part of the us and is in the pacfic ocean it is made of eight islands.It is nicknamed the sandwhich islands becaseue it is many islands.It also can be nicknamed “Aloha State.”Hawaii's main language is Hawaiian and in Hawaiian their Alphabet only has 12 letters and english has 26 letters in their alpahbet.Hawaii is the only state out of the fifty states (US) that grows coffee</h4>
        <center><h2 id="cool">this is what the Hawaiian flag looks like</h2></center>
         <center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/1920px-Flag_of_Hawaii.svg.png"width="399" /></center>
   
- <p class="mix">design your own flag bellow all you need to do is move your mouse around bellow the flag and you can draw your flag</p>
-
- <center><script src="https://www.khanacademy.org/computer-programming/spin-off-of-challenge-mouse-movement-mania/5166788597923840/embed.js?editor=no&buttons=no&author=yes&embed=yes"></script></center> 
+ <p class="mix">#</p>
        
        <center> <p>Read more on <a href="https://en.wikipedia.org/wiki/Hawaii">Wikipedia</a>.</p></center>
     </body>
@@ -165,9 +171,13 @@ One thing I like to do is sometimes when your traveling to a place. That you hav
     <img src=https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/1280x1280/products/264334/368629/may189144__56662.1530133184.jpg width="180">
      
       <div class="footer">
-  <p>Follow Us on <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos"> Youtube</a>
+         <div class="row">
+  <div class="column"><img src="/images/baymax_icon.png"height="90"></div>
+  <div class="column"><p>Follow Us on <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos"> Youtube</a>
 </p>
-<a href="https://forms.gle/ojYXBT1jvzTDVHNK9">Report Error</a>
+<a href="https://forms.gle/ojYXBT1jvzTDVHNK9">Report Error</a></div>
+</div> 
+
 </div>
 
 </html>
