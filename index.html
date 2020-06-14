@@ -1,103 +1,232 @@
 <!DOCTYPE html>
 
 <html>
-
- <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos">Contact</a>
-  <a href="https://xtramath.org/#/home/index">Math</a>
-  <a href="https://quizlet.com/371950071/flashcards">flashcards</a>
-  </div> 
     <head>
         <meta charset="utf-8">
+        
+
         <title>Baymax Pages</title>
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     </head>
     <body>
     <style>
     #baymax{
-    background-color:blue;
+    background-color:red;
     
     }
     #super{
-    background-color:green;
+    background-color:red;
     }
     #red{
         
-        background-color:green;
+        background-color:red;
         
     }
-    #cool{background-color:green;}
+    #cool{background-color:red;}
     body {
       margin: 0;
       background-color:black;
       color:white;
     }
     a {
-        color:green;
+        color:lightblue;
     }
     
     .topnav {
       overflow: hidden;
       background-color:rgb(13, 167, 214);
     }
-    p.mix {border-style: dotted dashed solid double;}
+    p.mix {
+      border-style: dotted dashed solid double;
+    }
     .topnav a {
       float: left;
       color: #f2f2f2;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 16px;
     }
     
     .topnav a:hover {
-      background-color: #ddd;
-      color: black;
+      background-color:#3CB371;
     }
     
-    .topnav a.active {
+    /*.topnav a.active {
       background-color: #4CAF50;
       color: white;
-    }
+    }*/
     #colors{
-        background-color:blue;
-       overflow: auto;
-    height: 70px; 
+      background-color:blue;
+      overflow: auto;
+      height: 70px; 
     }
-    
+    .footer {
+      left: 0;
+      bottom: 0;
+      height:150;
+      width:100%;
+      background-color: red;
+      /*color: white;*/
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover{
+      background-color:#9dd9b8;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover {
+      background-color:#3CB371;
+      display: block;
+    }
+    .column {
+      float: left;
+      width: 10%;
+    }
+
+    .header-column {
+      float:left;
+    }
+
+    .right-bar {
+      text-align:right;
+      overflow:hidden;
+      float:right;
+      padding: 14px 16px;
+      background-color:rgb(13, 167, 214);
+      font-size:16px;
+    }
+
+    .header {
+      vertical-align: top;
+      /*height: 80px;*/
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .content {
+      clear: left;
+      vertical-align: top;
+      /*padding: 10px 10px;
+      margin-left: var(--content-left-padding);
+      margin-right: var(--content-right-padding);
+      text-align: left;
+      font-family: var(--content-font);
+      font-size: var(--content-font-size);*/
+    }
+
 </style>
+    <div class="header">
+      <div class="header-column">
+        <a href="https://baymax103.github.io/"><img src="/images/logo.png" style="border: 3px solid red" height="60" /></a>
+      </div>
+      <div class="header-column">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="https://docs.google.com/document/d/1IPkGNeZjNXbRl94xD2UdacJaIWWyKwp-z9JZ80LLRpA/edit?usp=sharing">Charts</a>
+             <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos">Channel</a>
+           
+            <div class="dropdown">
+                <button class="dropbtn">Learn</button>
+                <i class="fa fa-caret-down"></i>
+              <div class="dropdown-content">
+                <a href="https://www.keyhero.com/free-typing-test/">Typing</a>
+                <a href="https://www.codecademy.com/">learn how to code</a>
+                <a href="#">coming soon</a>
+              </div>
+            </div>
+             <div class="dropdown">
+                 <button class="dropbtn">Help <svg class="t7" xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24" fill="#ffffff" focusable="false"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"></path></svg></button>
+                <i class="fa fa-caret-down"></i>
+              <div class="dropdown-content">
+                <a href="https://docs.google.com/document/d/1r659B46wYj8DC0IF6Xeb3O39Ntvx9MQEGBLs5_i6zVg/edit?usp=sharing">Updates</a>
+                <a href="https://docs.google.com/document/d/1GF3Ii0l-sGzhhVIK14pjJwobiRI5PhoqFZPYij5xuMw/edit?usp=sharing">Shortcut keys</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="topnav">
+          <div class="right-bar">
+            oi
+          </div>
+        </div>
+      </div> 
+      <div class="content">
+        <h1>Baymax pages</h1>
+        <h2 id="red">Tech (Computer functions)</h2>
 
-        <h1>Baymax Pages</h1>
-        <h2>1.Traveling</h2>
-        <img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png"width="203"/>
-        <h2 id="super">My things I like to do when you travel to places</h2>
-    <h4 id="colors"> I recomend you to go to Hawaii because of it's <em>weather.</em>It is a very nice trip and a lot of people have fun on it so I really hope if you can you should visit Hawaii it is a place I really want to go.
-One thing I like to do is sometimes when your traveling to a place. That you have never been too you should bring a notebook and write things on the trip that you learned. a You can also take pictures and make a small research report on the place that you went to, but you don't have to do it it is just a bouns thing. I like to do even Don't always write about the trip.  </h4>
-        
-        <h2 id="red">More about hawaii</h2>
-        <h4  id="baymax">Hawaii is part of the us and is in the pacfic ocean it is made of eight islands.It is nicknamed the sandwhich islands becaseue it is many islands.It also can be nicknamed “Aloha State.”Hawaii's main language is Hawaiian and in Hawaiian their Alphabet only has 12 letters and english has 26 letters in their alpahbet.Hawaii is the only state out of the fifty states (US) that grows coffee</h4>
-       <center><h2 id="cool">this is what the Hawaiian flag looks like</h2></center>
-        <center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/1920px-Flag_of_Hawaii.svg.png"width="399" /></center>
-  
- <p class="mix">design your own flag bellow all you need to do is move your mouse around bellow the flag and you can draw your flag</p>
+      <h4>How to change your <a href="https://www.youtube.com/watch?v=DO6LVKro3_0">cursor color and size on {Windows 10}</a></h4>
 
- <center><script src="https://www.khanacademy.org/computer-programming/spin-off-of-challenge-mouse-movement-mania/5166788597923840/embed.js?editor=no&buttons=no&author=yes&embed=yes"></script></center> 
+      
+        <p></p>
+       <h2 id="cool">About computers</h2>
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Acer_Aspire_8920_Gemstone.jpg/800px-Acer_Aspire_8920_Gemstone.jpg"width="180">
+       <h4> This is a picture of an laptop called the Acer Aspire 8920. It was made in 2008 by Acer.inc. It was also part of the Gemstone series</h4>
+       <p class="mix">"A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.
+
+Computers are used as control systems for a wide variety of industrial and consumer devices. This includes simple special purpose devices like microwave ovens and remote controls, factory devices such as industrial robots and computer-aided design, and also general purpose devices like personal computers and mobile devices such as smartphones. The Internet is run on computers and it connects hundreds of millions of other computers and their users" (Wikipedia).</p>
+<p> Learn more on<a href="https://en.wikipedia.org/wiki/Computer">Wekipedia</a>
+
+
+</p>
+<h2 id="cool">Laptops</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Macbook_Air.jpg/800px-Macbook_Air.jpg" width=180>
+<h4>This is a MacBook Air and it was made in 2008 jjust like the Acer Aspire 8920. The MacBook Air was made by Apple Inc. It has a 13.3 inch screen.</h4>
+    </div>
        
-       <center> <p>Read more on <a href="https://en.wikipedia.org/wiki/Hawaii">Wikipedia</a>.</p></center>
-    </body>
-   <h2>2.Favorite Characters</h2> 
-   <p>In this pharagrph I will be telling you my favorite characters from movies or from websites and I will leave some links below about the histroy of my favorite characters</p>
-   <img src="https://www.kasandbox.org/programming-images/avatars/piceratops-seed.png">
-    <p>I like him because it was my first character on a website then I earned more points to earn all of the characters he is also small and cute and is a flame type and I like flame type characters</p>
-    
-   <P>My favorite part of this character is what he can do he can breathe fire and he can transform to cooler things when you get more energy points</P> 
+      
+      <div class="footer">
+         <div class="row">
+  <div class="column"><img src="images/baymax_icon.png"height="90"></div>
+  <div class="column"><h3>Tools</h3><p><a href="https://www.youtube.com/watch?v=q3dcfqjB2ts">clips</a>
+</p>
+<a href="https://forms.gle/ojYXBT1jvzTDVHNK9">Report Error</a></div>
+</div> 
 
-   <p>My most favorite character is baymax. I like him a lot because he can be your friend. </p>
-    
-    
-    
-    
-    
+</div>
+
 </html>
-
