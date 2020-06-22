@@ -214,6 +214,14 @@
 .sql {width: 60%; background-color: #808080;} /* Dark Grey *
 
 
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.checked {
+  color: orange;
+}
 </style>
     <div class="header">
       <div class="header-column">
@@ -224,22 +232,6 @@
             <a class="active" href="#home">Home <img src="https://image.flaticon.com/icons/svg/2948/2948025.svg" width="14px" height="14px"></a>
             <a class="active" href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14"></a>
 
-<input id="myInput" value="Some text..">
-<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
-
-<script>
-var input = document.getElementById("myInput");
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("myBtn").click();
-  }
-});
-</script>
-
-            
-              
-           
             <div class="dropdown">
                 <button class="dropbtn">Learn<img src="https://image.flaticon.com/icons/svg/3068/3068327.svg" width="14px" height="14px"></button>
                 <i class="fa fa-caret-down"></i>
@@ -315,8 +307,8 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
-
-<h2 id="baymax">Skills</h2>
+<hr class="solid">
+<h2>skills</h2>
 <p>HTML</p>
 <div class="container">
   <div class="skills html">65%</div>
@@ -343,7 +335,14 @@ var x = setInterval(function() {
 </p>
 <a href="https://forms.gle/ojYXBT1jvzTDVHNK9">Report Error</a></div>
 <!-- Display the countdown timer in an element -->
+ <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 
       </div>
 </div> 
 
