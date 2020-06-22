@@ -201,7 +201,19 @@
             <a class="active" href="#home">Home <img src="https://image.flaticon.com/icons/svg/2948/2948025.svg" width="14px" height="14px"></a>
 
 
-            
+            <input id="myInput" value="Some text..">
+<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
+</script>
+
               
            
             <div class="dropdown">

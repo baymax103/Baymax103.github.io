@@ -44,6 +44,9 @@
     }
     p.mix {
       border-style: dotted dashed solid double;
+      width:99%;
+      overflow: auto;
+      
     }
     .topnav a {
       float: left;
@@ -174,6 +177,9 @@
       font-size: var(--content-font-size);*/
 
     }
+    .demo {
+  border:2px;
+}
 
    .vl {
   border-right: 2px solid green;
@@ -185,6 +191,28 @@
   /*margin-left: -3px;*/
   /*top: 0;*/
 }
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 65%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 65%; background-color: #4CAF50;} /* Green */
+.css {width: 50%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.sql {width: 60%; background-color: #808080;} /* Dark Grey *
+
 
 </style>
     <div class="header">
@@ -194,7 +222,20 @@
       <div class="header-column">
         <div class="topnav">
             <a class="active" href="#home">Home <img src="https://image.flaticon.com/icons/svg/2948/2948025.svg" width="14px" height="14px"></a>
+            <a class="active" href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14"></a>
 
+<input id="myInput" value="Some text..">
+<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
+</script>
 
             
               
@@ -215,6 +256,7 @@
                 <a href="https://docs.google.com/document/d/1r659B46wYj8DC0IF6Xeb3O39Ntvx9MQEGBLs5_i6zVg/edit?usp=sharing">Updates</a>
                 <a href="https://docs.google.com/document/d/1GF3Ii0l-sGzhhVIK14pjJwobiRI5PhoqFZPYij5xuMw/edit?usp=sharing">Shortcut keys</a>
 
+
               </div>
             </div>
           </div> 
@@ -229,22 +271,14 @@
         <h1>Baymax pages</h1>
 
         <div class="vl">
-        <iframe width="90%" height="350px" src="https://www.youtube.com/embed/VWzX4MEYOBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
         </div>
         <div class="vl">
-          
-        </div>
-
-
-      
-        
-       <h2>About computers</h2>
-       <p class="mix">"A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.
+         <p class="mix">"A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.
 
 Computers are used as control systems for a wide variety of industrial and consumer devices. This includes simple special purpose devices like microwave ovens and remote controls, factory devices such as industrial robots and computer-aided design, and also general purpose devices like personal computers and mobile devices such as smartphones. The Internet is run on computers and it connects hundreds of millions of other computers and their users" (Wikipedia).</p>
-<p> Read more on <a href="https://en.wikipedia.org/wiki/Computer">Wikipedia</a>
-
-
+<p> 
+        </div>
 </p>
 <h2 id="cool">Count down for Jan 20,2023</h2>
 <h2><p id="demo"></p></h2>
@@ -281,6 +315,25 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+
+<h2 id="baymax">Skills</h2>
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">65%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">50%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+
+ 
     </div>
       <a href="https://baymax103.github.io/explore.html"> Start Explore>></a> 
       <div class="footer">
