@@ -196,7 +196,7 @@
 
 /* Container for skill bars */
 .container {
-  width: 65%; /* Full width */
+  width:65%; /* Full width */
   background-color: #ddd; /* Grey background */
 }
 
@@ -230,6 +230,18 @@ hr.solid {
       <div class="header-column">
         <div class="topnav">
             <a class="active" href="#home">Home <img src="https://image.flaticon.com/icons/svg/2948/2948025.svg" width="14px" height="14px"></a>
+             <input id="myInput" value="Some text..">
+<button id="myBtn" onclick="javascript:alert('If you want to make a website that looks very good you use more Css than Html')">search</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
+</script>
             <a class="active" href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14"></a>
 
             <div class="dropdown">
@@ -271,6 +283,7 @@ hr.solid {
 Computers are used as control systems for a wide variety of industrial and consumer devices. This includes simple special purpose devices like microwave ovens and remote controls, factory devices such as industrial robots and computer-aided design, and also general purpose devices like personal computers and mobile devices such as smartphones. The Internet is run on computers and it connects hundreds of millions of other computers and their users" (Wikipedia).</p>
 <p> 
         </div>
+        
 </p>
 <h2 id="cool">Count down for Jan 20,2023</h2>
 <h2><p id="demo"></p></h2>
