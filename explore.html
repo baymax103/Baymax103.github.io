@@ -32,7 +32,7 @@
    body {
   background-image: url("");
 } 
-    a:hover {
+    a:hover :not(.vl) {
   background-color:#8cff32;
       }
 
@@ -183,6 +183,24 @@
    .vl {
   border-right: 2px solid green;
   width:50%;
+  /* Container for skill bars */
+.container {
+  width:65%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 65%; background-color: #4CAF50;} /* Green */
+.css {width: 50%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.sql {width: 60%; background-color: #808080;} /* Dark Grey 
   
   /*height:350px;*/
 /*  position:absolute;
@@ -190,6 +208,20 @@
   /*margin-left: -3px;*/
   /*top: 0;*/
 }
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 0.6}
 
 </style>
     <div class="header">
@@ -255,14 +287,12 @@ Design elements, form factor and construction can also vary significantly betwee
 " (Wikipedia).</p>
 <p> Learn more on <a href="https://en.wikipedia.org/wiki/Laptop">Wikipedia</a>
         </div>
-        <div class="vl">
+      <div class="vl">
         
-        </div>
-
-
-      <h4>      
-        
-    
+      <h4>
+      <a href="https://baymax103.github.io"><button class="btn">Go back</button></a>      
+      </div>
+   
       
       <div class="footer">
          <div class="row">
