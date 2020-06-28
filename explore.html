@@ -32,7 +32,7 @@
    body {
   background-image: url("");
 } 
-    a:hover :not(.vl) {
+    a:hover {
   background-color:#8cff32;
       }
 
@@ -233,18 +233,7 @@
             <a class="active" href="#home">Home <img src="https://image.flaticon.com/icons/svg/2948/2948025.svg" width="14px" height="14px"></a>
 
 
-            <input id="myInput" value="explore here">
-<button id="myBtn" onclick="javascript:alert('Go to wikipedia to learn more about computers')">explore</button>
-
-<script>
-var input = document.getElementById("myInput");
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("myBtn").click();
-  }
-});
-</script>
+            
           <a class="active" href="https://baymax103.github.io/computer.html">Computers <img src="https://image.flaticon.com/icons/svg/689/689396.svg" width="14px" height="14px"></a>
 
               
@@ -291,9 +280,10 @@ Design elements, form factor and construction can also vary significantly betwee
       <div class="vl">
         
       <h4>
-      <a href="https://baymax103.github.io"><button class="btn">Go back</button></a>      
+           
       </div>
-   
+   <button id="myBtn" onclick="javascript:alert('Welcome back from explore')">Go back</button>
+
       
       <div class="footer">
          <div class="row">
