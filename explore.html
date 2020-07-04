@@ -7,321 +7,9 @@
 
         <title>Baymax Pages</title>
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-    <style>
-    #baymax{
-    background-color:red;
-    overflow:auto;
-    height:200;
-    
-    }
-    #super{
-    background-color:red;
-    }
-    #red{
-        
-        background-color:red;
-        
-    }
-    #cool{background-color:red;}
-    body {
-      margin: 0;
-      color:black;
-    }
-   body {
-  background-image: url("");
-} 
-    a:hover {
-  background-color:#8cff32;
-      }
-
-      a{
-        color:#0da7d6;
-      }
-    
-    .topnav {
-      overflow: hidden;
-      background-color: rgb(13, 167, 214);
-    }
-    p.mix {
-      border-style: dotted dashed solid double;
-      overflow: auto;
-      height:200px;
-      width:560px;
-    }
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 16px;
-    }
-
-    .right-bar a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 0px 0px;
-      text-decoration: none;
-      font-size: 16px;
-    }
-    
-    .topnav a:hover {
-      background-color:#3CB371;
-    }
-    
-    /*.topnav a.active {
-      background-color: #4CAF50;
-      color: white;
-    }*/
-    #colors{
-      background-color:blue;
-      overflow: auto;
-      height: 70px; 
-    }
-    .footer {
-      left: 0;
-      bottom: 0;
-      height:150;
-      width:100%;
-      background-color: red;
-      /*color: white;*/
-    }
-
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-    .dropdown .dropbtn {
-      font-size: 16px;  
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-
-
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-    .dropdown-content a:hover{
-      background-color:#9dd9b8;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    .dropdown:hover {
-      background-color:#3CB371;
-      display: block;
-    }
-    .column {
-      float: left;
-      width: 10%;
-    }
-
-    .header-column {
-      float:left;
-    }
-
-    .right-bar {
-      text-align:right;
-      overflow:hidden;
-      float:right;
-      padding: 12px 16px;
-      background-color:rgb(13, 167, 214);
-      font-size:16px;
-    }
-
-    .header {
-      vertical-align: top;
-      /*height: 80px;*/
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    .content {
-      clear: left;
-      vertical-align: top;
-      /*padding: 10px 10px;
-      margin-left: var(--content-left-padding);
-      margin-right: var(--content-right-padding);
-      text-align: left;
-      font-family: var(--content-font);
-      font-size: var(--content-font-size);*/
-
-    }
-
-   .vl {
-  border-right: 2px solid green;
-  width:50%;
-  /* Container for skill bars */
-.container {
-  width:65%; /* Full width */
-  background-color: #ddd; /* Grey background */
-}
-
-
-.skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
-
-.html {width: 65%; background-color: #4CAF50;} /* Green */
-.css {width: 50%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.sql {width: 60%; background-color: #808080;} /* Dark Grey 
-  
-  /*height:350px;*/
-/*  position:absolute;
-*/  /*left: 50%;*/
-  /*margin-left: -3px;*/
-  /*top: 0;*/
-}
-
-.btn {
-  background-color: #f4511e;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 1;
-  transition: 0.3s;
-}
-
-.btn:hover {opacity: 0.6}
-
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-</style>
     <div class="header">
       <div class="header-column">
         <a href="https://baymax103.github.io/"><img src="images/logo.png" style="border: 3px solid red" height="60" /></a>
@@ -331,13 +19,10 @@ img {vertical-align: middle;}
             <a class="active" href="#home">Home <img src="https://image.flaticon.com/icons/svg/2948/2948025.svg" width="14px" height="14px"></a>
 
 
-            
-          
-              
-           
+            <a class="active" href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14px"></a>
+
             <div class="dropdown">
                 <button class="dropbtn">Learn<img src="https://image.flaticon.com/icons/svg/3068/3068327.svg" width="14px" height="14px"></button>
-                <i class="fa fa-caret-down"></i>
               <div class="dropdown-content">
                 <a href="https://www.keyhero.com/free-typing-test/">Typing</a>
                 <a href="https://www.codecademy.com/">learn how to code</a>
@@ -346,10 +31,10 @@ img {vertical-align: middle;}
             </div>
              <div class="dropdown">
                  <button class="dropbtn">Help<img src="https://image.flaticon.com/icons/svg/906/906794.svg" width="14" height="14"></button>
-                <i class="fa fa-caret-down"></i>
               <div class="dropdown-content">
                 <a href="https://docs.google.com/document/d/1r659B46wYj8DC0IF6Xeb3O39Ntvx9MQEGBLs5_i6zVg/edit?usp=sharing">Updates</a>
                 <a href="https://docs.google.com/document/d/1GF3Ii0l-sGzhhVIK14pjJwobiRI5PhoqFZPYij5xuMw/edit?usp=sharing">Shortcut keys</a>
+
 
               </div>
             </div>
@@ -357,24 +42,14 @@ img {vertical-align: middle;}
         </div>
         <div class="topnav">
           <div class="right-bar">
-            <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos"><img src="https://image.flaticon.com/icons/svg/1384/1384060.svg" height="19px" /></a>
+            <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos"><img src="https://image.flaticon.com/icons/svg/1384/1384060.svg" height="17px" /></a>
           </div>
         </div>
-      </div> 
+      </div>
       <div class="content">
         <h1>🅴xplore</h1>
         <div class="vl">
-         <h2>About modern day laptops</h2>
-       <p class="mix">"A laptop (also laptop computer), often called a notebook, is a small, portable personal computer (PC) with a "clamshell" form factor, typically having a thin LCD or LED computer screen mounted on the inside of the upper lid of the clamshell and an alphanumeric keyboard on the inside of the lower lid. The clamshell is opened up to use the computer. Laptops are folded shut for transportation, and thus are suitable for mobile use.[1] Its name comes from lap, as it was deemed to be placed on a person's lap when being used. Although originally there was a distinction between laptops and notebooks (the former being bigger and heavier than the latter), as of 2014, there is often no longer any difference. Today, laptops are commonly used in a variety of settings, such as at work, in education, for playing games, web browsing, for personal multimedia, and general home computer use.
-
-Laptops combine all the input/output components and capabilities of a desktop computer, including the display screen, speakers, a keyboard, data storage device, sometimes an optical disc drive, pointing devices (such as a touchpad or trackpad), with a operating system, a processor and memory into a single unit. Most modern laptops feature integrated webcams and built-in microphones, while many also have touchscreens. Laptops can be powered either from an internal battery or by an external power supply from an AC adapter. Hardware specifications, such as the processor speed and memory capacity, significantly vary between different types, makes, models and price points.
-
-Design elements, form factor and construction can also vary significantly between models depending on intended use. Examples of specialized models of laptops include rugged notebooks for use in construction or military applications, as well as low production cost laptops such as those from the One Laptop per Child (OLPC) organization, which incorporate features like solar charging and semi-flexible components not found on most laptop computers. Portable computers, which later developed into modern laptops, were originally considered to be a small niche market, mostly for specialized field applications, such as in the military, for accountants, or for traveling sales representatives. As the portable computers evolved into the modern laptop, they became widely used for a variety of purposes.[2]
-" (Wikipedia).</p>
-<p> Learn more on <a href="https://en.wikipedia.org/wiki/Laptop">Wikipedia</a>
-        </div>
-      <div class="vl">
-      <div class="slideshow-container">
+<div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 4</div>
@@ -437,16 +112,27 @@ function showSlides(n) {
       slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active-slide", "");
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active-slide";
 }
 </script>
  
+         <h2>About modern day laptops</h2>
+       <p class="mix">"A laptop (also laptop computer), often called a notebook, is a small, portable personal computer (PC) with a "clamshell" form factor, typically having a thin LCD or LED computer screen mounted on the inside of the upper lid of the clamshell and an alphanumeric keyboard on the inside of the lower lid. The clamshell is opened up to use the computer. Laptops are folded shut for transportation, and thus are suitable for mobile use.[1] Its name comes from lap, as it was deemed to be placed on a person's lap when being used. Although originally there was a distinction between laptops and notebooks (the former being bigger and heavier than the latter), as of 2014, there is often no longer any difference. Today, laptops are commonly used in a variety of settings, such as at work, in education, for playing games, web browsing, for personal multimedia, and general home computer use.
+
+Laptops combine all the input/output components and capabilities of a desktop computer, including the display screen, speakers, a keyboard, data storage device, sometimes an optical disc drive, pointing devices (such as a touchpad or trackpad), with a operating system, a processor and memory into a single unit. Most modern laptops feature integrated webcams and built-in microphones, while many also have touchscreens. Laptops can be powered either from an internal battery or by an external power supply from an AC adapter. Hardware specifications, such as the processor speed and memory capacity, significantly vary between different types, makes, models and price points.
+
+Design elements, form factor and construction can also vary significantly between models depending on intended use. Examples of specialized models of laptops include rugged notebooks for use in construction or military applications, as well as low production cost laptops such as those from the One Laptop per Child (OLPC) organization, which incorporate features like solar charging and semi-flexible components not found on most laptop computers. Portable computers, which later developed into modern laptops, were originally considered to be a small niche market, mostly for specialized field applications, such as in the military, for accountants, or for traveling sales representatives. As the portable computers evolved into the modern laptop, they became widely used for a variety of purposes.[2]
+" (Wikipedia).</p>
+<p> Learn more on <a href="https://en.wikipedia.org/wiki/Laptop">Wikipedia</a>
+        </div>
+      <div class="vl">
 
  
       <h4>
+
            
       </div>
    <a href="https://baymax103.github.io"><button id="myBtn" onclick="javascript:alert('Welcome back from explore')">←Go back</button></a>
