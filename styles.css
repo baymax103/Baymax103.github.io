@@ -271,7 +271,6 @@ img {vertical-align: middle;}
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
 }
 
 /* Number text (1/3 etc) */
@@ -321,3 +320,15 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.type-animate{
+  color:lime;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 5s steps(60, end); 
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
