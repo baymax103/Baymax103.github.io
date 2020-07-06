@@ -1,4 +1,9 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <meta charset="utf-8">
+        
         <title>Baymax Pages</title>
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="stylesheet" href="styles.css">
@@ -17,7 +22,7 @@
             <a href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14px"></a>
 
 
-            <a href="">Feedback <img src="">
+            <a href="https://baymax103.github.io/feedback.html">Feedback <img src="https://image.flaticon.com/icons/svg/3039/3039508.svg"height="14px" width="14px"></a>
 
             <div class="dropdown">
                 <button class="dropbtn">Learn<img src="https://image.flaticon.com/icons/svg/3068/3068327.svg" width="14px" height="14px"></button>
@@ -47,3 +52,25 @@
       <div class="content">
 
       <h2>Submit a feedback</h2>
+
+      <div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="russia">Russia</option>
+      <option value="other">Other</option>
+      <option value="rather not say">rather not say</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
