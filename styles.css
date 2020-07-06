@@ -331,4 +331,91 @@ img {vertical-align: middle;}
 
 @keyframes type{ 
   from { width: 0; } 
-} 
+}
+
+
+ /*test*/
+ <style type="text/css">
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9jtEKwjAMRX/IWKZT3IP4LV0NrlvThiVl7O/tJr6I9CXkhns4MQuDS1ExqqEMHPLLRzELu0Qg5AOuP+noRA7mPxb8hGJGVLZugj3V6i7NWO7EVrcG4dNbDEilVsOIr19qW4fiqmo+7/c9zygCZZLPBDoU0c496N60l+7UNt35Nr4B2XZl/A==' type='text/css' media='all' />
+<link rel='stylesheet' id='screenprint-css-1-1' href='https://s1.wp.com/wp-content/themes/vip/partner-annotum-base/assets/main/css/main.css?m=1376952957h' type='text/css' media='screen, print' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s2.wp.com/_static/??-eJx9j9EOwiAMRX9IrGbL5ovxWzqCgCmUUJb9vhCNupjwxL3JOaUFD5GL1xzlE45a5ABbUrUUEwuEVSVara+MNayINRbPcVfUndDnnprNQmxrtFCpn9qTULfhC+Zv6uGJpbw2AXGY21/vt2cJa49UT7G8L39ScSYYATeCJV6QGnAL1/M4T8NwmebT4wlLUX2f' type='text/css' media='all' />
+  <!--[if lte IE 8]>
+  <style type="text/css" media="screen">
+    .featured-posts .control-panel .previous,
+    .featured-posts .control-panel .next,
+    .widget-recent-posts .nav .ui-tabs-selected,
+    .widget-recent-posts .panel {
+      behavior: url(https://s0.wp.com/wp-content/themes/vip/partner-annotum-base/assets/main/js/libs/css3pie/PIE.php);
+    }
+  </style>
+  <![endif]-->
+<link rel="canonical" href="https://annotum.org/" />
+<style type="text/css">
+.widget_twitter li {
+  word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="Annotum" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="A scholarly authoring and publishing platform based on WordPress" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://annotum.org/feed/;icon-uri=https://secure.gravatar.com/blavatar/398c1cd8580f1cc692bb7b2961047adb?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Welcome | Annotum on WordPress.com" />
+<meta name="description" content="Latest Updates Welcome Welcome to the home of Annotum, an open-source, open-process, open-access scholarly authoring and publishing platform based on WordPress. Annotum version 1.o was launched on November 22, 2011 (11/22/11). Here you can read about how to get started with Annotum, as well as where to find support for using the Annotum theme. There&#039;s also an&hellip;" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  <style type="text/css" media="screen">
+
+ 
+  /* Color 1 */
+  
+    /* Background Color */
+    #header .header-body,
+    #header .navigation,
+    #masthead,
+    .featured-posts .control-panel a,
+    .widget .tab-active,
+    #reply button,
+    .tools-nav nav li a,
+    .widget-recent-posts .nav .ui-tabs-selected {
+      background-color: #006b94;
+    }
+
+    /* Border Color */
+    #site-nav li,
+    .callout-item,
+    .widget-recent-posts .nav li { 
+      border-color: #006b94;
+    }
+  
+    /* Text Color */
+    .featured-posts .control-panel,
+    .article-excerpt .header .meta a:hover,
+    .article-full .header .meta a:hover {
+      color: #006b94;
+    }
+
+
+  /* Color 2 */
+  
+    /* Background Color */
+    #site-nav,
+    #site-nav li,
+    #site-nav li ul,
+    .featured-posts .carousel-item,
+    #masthead .teaser {
+      background-color: #66a6bf;
+    }
+
+  /* Link Color */
+  a {
+    color: #0867ab;
+  }
+</style>
