@@ -334,6 +334,18 @@ img {vertical-align: middle;}
 }
 
 
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,255,0,.75);}
+  to{border-bottom-color: transparent;}
+}
+
+/*table*/
+table, th, td {
+  border: 1px solid black;
+}
+
+
+
 
 
  /*test*/
