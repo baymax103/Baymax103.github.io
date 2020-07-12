@@ -67,14 +67,7 @@
       overflow: auto;
       height: 70px; 
     }
-    .footer {
-      left: 0;
-      bottom: 0;
-      height:150;
-      width:100%;
-      background-color: red;
-      /*color: white;*/
-    }
+    
 
     .dropdown {
       float: left;
@@ -147,12 +140,7 @@
       /*height: 80px;*/
     }
 
-    /* Clear floats after the columns */
-    .footer:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+    
 
     .content {
       clear: left;
@@ -179,12 +167,6 @@
   /*margin-left: -3px;*/
   /*top: 0;*/
 }
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-
-*
-
-
 /* Solid border */
 hr.solid {
   border-top: 3px solid #bbb;
@@ -224,10 +206,11 @@ hr.solid {
   padding: 20px; /* Some padding */
 }
 
-* {box-sizing: border-box}
+/** {box-sizing: border-box}*/
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -349,6 +332,112 @@ table, th, td {
 {
 padding-left:10px;background-color:white;
 font-family: verdana, san-serif;font-size: 13px
+}
+
+/*new footer*/
+
+/*html, body {
+    margin: 0;
+    padding: 0;
+  }*/
+
+  :root {
+    
+
+    --topbar-bg-color: rgb(13, 167, 214);;
+    --topbar-hoverover-color: red;
+
+    --menu-font-size: 16px;
+    --submenu-font-size: 14px;
+
+    --menu-text-color: white;
+    --submenu-text-color: black;
+    
+    --content-left-padding: 60px;
+    --content-right-padding: 60px;
+
+    --footer-column-hoverover-color: #0b4e82;
+    --footer-link-top-bottom-padding: 5px;
+    --footer-link-left-right-padding: 10px;
+  }
+
+.footer {
+  border-top: 5px solid var(--topbar-hoverover-color);
+  background-color: var(--topbar-bg-color);
+  padding-left: var(--content-left-padding);
+  padding-right: var(--content-right-padding);
+}
+
+.footer-content {
+  background: var(--topbar-bg-color);
+  vertical-align: bottom;
+  overflow: hidden;
+  width: 100%;
+  color: var(--menu-text-color);
+  display: inline-block;
+  font-family: var(--topbar-font);
+}
+
+.footer-bottom {
+  background: var(--topbar-bg-color);
+  border-top: 1px solid white;
+  vertical-align: bottom;
+  overflow: hidden;
+  width: 100%;
+  color: var(--menu-text-color);
+  display: inline-block;
+  font-family: var(--topbar-font);
+}
+
+/* FOOTER-SPECIFIC FORMATTING */
+
+.footer-column {
+  float: left;
+  padding: 30px;
+  background-color: inherit;
+}
+
+.footer-link-column {
+  width: 10%;
+  height: inherit;
+  transition:background-color .25s ease-in;
+}
+
+.footer-link-column:hover {
+  background-color: var(--footer-column-hoverover-color);
+}
+
+.footer-section-title {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.footer-section-title:not(.no-indent) {
+  padding-left: var(--footer-link-left-right-padding);
+}
+
+.footer-link-text {
+  font-size: var(--submenu-font-size);
+  margin: 0px;
+  padding-top: var(--footer-link-top-bottom-padding);
+  padding-left: var(--footer-link-left-right-padding);
+  padding-right: var(--footer-link-left-right-padding);
+  padding-bottom: var(--footer-link-top-bottom-padding);
+}
+
+.footer-link-text:hover {
+  background-color: var(--topbar-hoverover-color);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-text {
+  margin: 0px;
+  font-size: var(--submenu-font-size);
+}
 
 
 
