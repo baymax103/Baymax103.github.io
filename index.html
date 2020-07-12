@@ -52,24 +52,18 @@
       <div class="content">
         <h1>🅱aymax 🅿ages</h1>
 
-
-
-        <div class="vl">
-
-        
-        </div>
-
         <div class="vl">
           <div class="container">
-            <a href="https://youtu.be/VWzX4MEYOBk"><img src="https://askleo.com/wp-content/uploads/2010/12/desktop_computer.jpg"height="400" width=90%></a>
+            <a href="https://youtu.be/VWzX4MEYOBk"><img src="https://askleo.com/wp-content/uploads/2010/12/desktop_computer.jpg"height="400" width=0%></a>
             <div class="content">
               <h1 class="type-animate">Computer tour</h1>
               <a href="https://youtu.be/VWzX4MEYOBk"><p class="type-animate">→Take a vitual tour of computers</p></a>
-
+              
             </div>
           </div>
         </div>  
         </div>
+
        <p class="mix">"A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming. Modern computers have the ability to follow generalized sets of operations, called programs. These programs enable computers to perform an extremely wide range of tasks. A "complete" computer including the hardware, the operating system (main software), and peripheral equipment required and used for "full" operation can be referred to as a computer system. This term may as well be used for a group of computers that are connected and work together, in particular a computer network or computer cluster.
 
 Computers are used as control systems for a wide variety of industrial and consumer devices. This includes simple special purpose devices like microwave ovens and remote controls, factory devices such as industrial robots and computer-aided design, and also general purpose devices like personal computers and mobile devices such as smartphones. The Internet is run on computers and it connects hundreds of millions of other computers and their users" (Wikipedia).</p>
@@ -112,18 +106,52 @@ var x = setInterval(function() {
 </script>
 
 
+
 <!-- flagcounter -->
 <a href="https://info.flagcounter.com/tYZ8"><img src="https://s05.flagcounter.com/count2/tYZ8/bg_FF0000/txt_000000/border_CCCCCC/columns_2/maxflags_9/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-<hr class="solid">
-<!-- button for explore with paragph -->
-<p>Did you now that the first computer made was between 1936 and 1938. The first mouse was made in 1964 and it was made by Doug Engelbart and the mouse he made was made out of wood. So if you want to learn more about computers <a href="https://baymax103.github.io/explore.html"><button id="myBtn" onclick="javascript:alert('Welcome to explore read about computers click on links and many more')"> Start Exploring→</button>
-</a> </p>
+
+<!-- facts generator -->
+
+<script type="text/javascript">
+var arr= new Array();
+arr.push("Russia made a computer that runs on water");
+arr.push("Doug Engelbart invented the first mouse and it was made of wood");
+arr.push("CSS - Cascading Style Sheet");
+arr.push("HTML is a platform independent language");
+function rotate()
+{
+var num= Math.round(Math.random()*3);
+add(num);
+}
+function add(i)
+{
+var chi = document.createTextNode(arr[i]);
+var tab1 = document.getElementById("add1");
+while(tab1.hasChildNodes())
+{
+tab1.removeChild(tab1.firstChild);
+}
+tab1.appendChild(chi);
+}
+</script>
+<table align=left style="background-color:#C0C0C0";>
+<tr>
+<td background-color:#C0C0C0 align=center width=300 style="font-family:Times New Roman;">
+<b>Fun facts
+</td>
+</tr>
+<tr>
+<td id=add1 class=row width=300 align=center>Fact of the day</td>
+</tr>
+<tr><td align=center>
+<input type=button value="Next" border=0 onclick="rotate()"></td></tr>
+</table>
 
 
       
 <!-- footer -->
       <div class="footer">
-         <div class="row">
+         <div class="footer">
   <div class="column"><img src="images/baymax_icon.png"height="90"></div>
   <div class="column"><h3>Resources</h3><p><a href="https://docs.google.com/document/d/1IPkGNeZjNXbRl94xD2UdacJaIWWyKwp-z9JZ80LLRpA/edit">charts</a>
 </p>
@@ -133,7 +161,7 @@ var x = setInterval(function() {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </div>
       <hr class="solid">
-      Baymax pages~promoting the computers 2020-
+      Baymax pages~promoting the computers since 2020
 
 </div> 
 

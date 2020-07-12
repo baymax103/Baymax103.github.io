@@ -148,7 +148,7 @@
     }
 
     /* Clear floats after the columns */
-    .row:after {
+    .footer:after {
       content: "";
       display: table;
       clear: both;
@@ -345,6 +345,10 @@ table, th, td {
 }
 
 
+.row
+{
+padding-left:10px;background-color:white;
+font-family: verdana, san-serif;font-size: 13px
 
 
 
