@@ -450,7 +450,12 @@ font-family: verdana, san-serif;font-size: 13px
   font-size: var(--submenu-font-size);
 }
 
-
+/* Fake image */
+.fake {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
 
  /*test*/
 
