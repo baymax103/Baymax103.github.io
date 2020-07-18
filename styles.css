@@ -169,7 +169,7 @@ a:active {
 }
 
    .vl {
-  border-right: 2px solid green;
+  border-right: 2px solid red;
   width:50%;
   
   /*height:350px;*/
@@ -451,9 +451,9 @@ font-family: verdana, san-serif;font-size: 13px
 }
 
 /* Fake image */
-. {
+.fake {
   background-color: #aaa;
-  width: 100%;
+  width: 90%;
   padding: 20px;
 }
 
