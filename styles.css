@@ -356,7 +356,7 @@ font-family: verdana, san-serif;font-size: 13px
     
 
     --topbar-bg-color: rgb(13, 167, 214);;
-    --topbar-hoverover-color: #26AFDA;
+    /*--topbar-hoverover-color: #26AFDA;*/
 
     --menu-font-size: 16px;
     --submenu-font-size: 14px;
