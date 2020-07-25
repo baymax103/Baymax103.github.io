@@ -545,7 +545,7 @@ p.one {
     -ms-animation: cssload-rotate-two 1.15s linear infinite;
     -webkit-animation: cssload-rotate-two 1.15s linear infinite;
     -moz-animation: cssload-rotate-two 1.15s linear infinite;
-  border-right: 3px solid rgb(255,0,0);
+  border-right: 3px solid white
 }
 
 .cssload-inner.cssload-three {
@@ -556,7 +556,7 @@ p.one {
     -ms-animation: cssload-rotate-three 1.15s linear infinite;
     -webkit-animation: cssload-rotate-three 1.15s linear infinite;
     -moz-animation: cssload-rotate-three 1.15s linear infinite;
-  border-top: 3px solid rgb(255,0,0);
+  border-top: 3px solid blue
 }
 
 
