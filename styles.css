@@ -462,11 +462,10 @@ p.one {
   border-color: red;
 }
 
-
 * {box-sizing: border-box;}
 
 .img-magnifier-container {
-  position:relative;
+  position: relative;
 }
 
 .img-magnifier-glass {
@@ -477,7 +476,6 @@ p.one {
   /*Set the size of the magnifier glass:*/
   width: 100px;
   height: 100px;
-}
- /*test*/
+} /*test*/
 
  
