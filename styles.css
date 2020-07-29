@@ -404,12 +404,12 @@ font-family: verdana, san-serif;font-size: 13px
 
 .footer-column {
   float: left;
-  padding: 30px;
+  padding: 20px;
   background-color: inherit;
 }
 
 .footer-link-column {
-  width: 10%;
+  width: 15%;
   height: inherit;
   transition:background-color .25s ease-in;
 }
