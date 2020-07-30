@@ -373,7 +373,7 @@ font-family: verdana, san-serif;font-size: 13px
   }
 
 .footer {
-  border-top: 5px solid var(--topbar-hoverover-color);
+  border-top: 5px solid red;
   background-color: var(--topbar-bg-color);
   padding-left: var(--content-left-padding);
   padding-right: var(--content-right-padding);
