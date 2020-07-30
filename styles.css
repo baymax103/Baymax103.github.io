@@ -790,3 +790,9 @@ box-shadow: 0px 0px 20px #000000;
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+
+.italicize {
+  font-style: italic;
+  display: inline;
+}
