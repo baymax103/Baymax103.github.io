@@ -414,7 +414,7 @@ font-family: verdana, san-serif;font-size: 13px
   transition:background-color .25s ease-in;
 }
 
-.footer-link-column:hover {
+.footer-link-column:hover:not(.no-hover-bg-footer-column) {
   background-color: var(--footer-column-hoverover-color);
 }
 
