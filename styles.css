@@ -18,10 +18,16 @@
    body {
   background-image: url("");
 } 
-     
 
-     
+a:link {
+  text-decoration: none;
+  color:red;
+}
 
+a:visited {
+  text-decoration: none;
+  color:red;
+}
 
 a:hover {
   text-decoration: underline;
