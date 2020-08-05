@@ -20,15 +20,8 @@
 } 
      
 
-     a:link {
-  text-decoration: none;
-  color:red;
-}
+     
 
-a:visited {
-  text-decoration: none;
-  color:red;
-}
 
 a:hover {
   text-decoration: underline;
@@ -69,7 +62,7 @@ a:active {
     }
     
     .topnav a:hover {
-      background-color:#3CB371;
+      background-color:gray;
     }
 
     .share-button a:hover {
@@ -124,7 +117,7 @@ a:active {
     }
 
     .dropdown-content a:hover{
-      background-color:#9dd9b8;
+      background-color:#d3d3d3;
     }
 
     .dropdown:hover .dropdown-content {
@@ -132,7 +125,7 @@ a:active {
     }
 
     .dropdown:hover {
-      background-color:#3CB371;
+      background-color:gray;
       display: block;
     }
     .column {
