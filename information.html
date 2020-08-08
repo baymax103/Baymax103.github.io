@@ -23,11 +23,11 @@
             
             <a href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14px"></a>
 
-            <a href="https://baymax103.github.io/information.html">Information <img src="https://image.flaticon.com/icons/svg/3039/3039508.svg"height="14px" width="14px"></a>
+            <a href="https://baymax103.github.io/information.html">Information <img src="https://image.flaticon.com/icons/svg/2088/2088076.svg"height="14px" width="14px"></a>
 
             <a href="https://baymax103.github.io/about.html">About <img src="https://www.flaticon.com/premium-icon/icons/svg/2984/2984970.svg"height="14px" width="14px"></a>
 
-            <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA?view_as=subscriber">Channel<img src="https://image.flaticon.com/icons/svg/1384/1384012.svg" width="14px" height="14px"></a>
+            <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA?view_as=subscriber">Channel <img src="https://image.flaticon.com/icons/svg/1384/1384012.svg" width="14px" height="14px"></a>
 
 
             <div class="dropdown">
@@ -57,22 +57,46 @@
           </div>
         </div>
       </div> 
+      <br></br>
       <div class="content">
       
 
-      <h2>Profiles</h2>
-      <ul>
-        <li>
-      <a>Asus</a>
-    </li>
-    <li>
-      <a>Apple</a>
-    </li>
-    <li>
-      <a>Google</a>
-    </li>
-    <li>
-      <a>Microsoft</a>
-    </li>
-  </ul>
+      <h3>About</h3>
+      <script>
+function myFunction(divid) {
+  var x = document.getElementById(divid);
+  if (x.style.display == "") {
+    x.style.display = "block";
+    changeShowHideButton(divid);
+  } else {
+    x.style.display = "";
+    changeShowHideButton(divid);
+  }
+}
+
+function changeShowHideButton(divid) {
+  var shown = document.getElementById(divid + "btn").innerHTML;
+  if (shown == "Show") {
+    document.getElementById(divid + "btn").innerHTML = "Hide";
+  } else {
+    document.getElementById(divid + "btn").innerHTML = "Show";
+  }
+}
 </script>
+
+      <p>Asus [<a href="#" id="asusbtn" onclick="myFunction('asus')" style="cursor: crosshair;" class="italicize">Show</a>]</p>
+    <div id="asus" class="show-hide-region">
+This is my DIV element.
+</div>
+      <p>Apple [<a href="#" id="applebtn" onclick="myFunction('apple')" style="cursor:crosshair" class="italicize">Show</a>]</p>
+    <div id="apple" class="show-hide-region">
+This is my DIV element.
+</div>
+      <p>Google [<a href="#" id="googlebtn" onclick="myFunction('google')" style="cursor:crosshair" class="italicize">Show</a>]</p>
+    <div id="google" class="show-hide-region">
+This is my DIV element.
+</div>
+      <p>Microsoft [<a href="#" id="microsoftbtn" onclick="myFunction('microsoft')" style="cursor:crosshair" class="italicize">Show</a>]</p>
+    <div id="microsoft" class="show-hide-region">
+This is my DIV element.
+</div>

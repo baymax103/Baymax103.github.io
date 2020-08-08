@@ -162,27 +162,32 @@ a:active {
     .content {
       clear: left;
       vertical-align: top;
+      /*display: flex;*/
       /*padding: 10px 10px;
       margin-left: var(--content-left-padding);
       margin-right: var(--content-right-padding);
       text-align: left;
       font-family: var(--content-font);
       font-size: var(--content-font-size);*/
+    }
 
+    .column-container {
+      clear: left;
+      vertical-align: top;
+      display:flex;
     }
     .demo {
   border:2px;
 }
 
-   .vl {
+.col-left {
   border-right: 2px solid red;
-  width:50%;
-  
-  /*height:350px;*/
-/*  position:absolute;
-*/  /*left: 50%;*/
-  /*margin-left: -3px;*/
-  /*top: 0;*/
+  flex:50%;
+  float:left;
+}
+.col-right {
+  flex:50%;
+  float:left;
 }
 /* Solid border */
 hr.solid {
@@ -478,11 +483,7 @@ p.one {
   height: 100px;
 } /*test*/
 
- h3 {
-    animation-duration: 8s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-}
+ 
 
 @keyframes slidein {
   0% {
@@ -713,7 +714,7 @@ box-shadow: 0px 0px 20px #000000;
 }
 
 .share-button {
-  width: 200px;
+  width: 214px;
   height: 19px;
   background: #dfe6e9;
   border-radius: 20px;
@@ -749,7 +750,7 @@ box-shadow: 0px 0px 20px #000000;
 .share-button a {
   flex: 1;
   font-size: 26px;
-  margin-right: 10px;
+  margin-right: 5px;
   color: #2d3436;
   text-align: center;
   transform: translateX(-100%);
@@ -797,5 +798,10 @@ box-shadow: 0px 0px 20px #000000;
 .italicize {
   font-style: italic;
   display: inline;
+}
+
+.show-hide-region {
+  /*visibility:hidden;*/
+  display:none;
 }
 
