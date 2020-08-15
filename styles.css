@@ -67,6 +67,10 @@ a:active {
     
     .topnav a:hover {
       background-color:gray;
+      display:block;
+      transition: 0.5s;
+    }
+    .topnav a:hover {
     }
 
     .share-button a:hover {
@@ -121,9 +125,10 @@ a:active {
     }
 
     .dropdown-content a:hover{
-      background-color:#d3d3d3;
+      background-color:gray;
+      transition: 0.5s;
     }
-
+    
     .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -131,7 +136,11 @@ a:active {
     .dropdown:hover {
       background-color:gray;
       display: block;
+      opacity: 1;
+      transition: 0.5s;
     }
+    
+
     .column {
       float: left;
       width: 10%;
