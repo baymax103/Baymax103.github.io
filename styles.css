@@ -811,7 +811,10 @@ box-shadow: 0px 0px 20px #000000;
   /*visibility:hidden;*/
   display:none;
 }
-
-
+.textwrap{
+  clear:left;
+  float:left;
+  margin:10px;
+}
 
 
