@@ -195,6 +195,7 @@ a:active {
 .col-right {
   float:left;
   width:15%;
+  height:70%;
 }
 .middle {
   float:left;
@@ -824,6 +825,7 @@ box-shadow: 0px 0px 20px #000000;
 .newscoulumn{
   background:#D3D3D3;
   width:100%;
+
   
 }
 
