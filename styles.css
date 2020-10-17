@@ -874,3 +874,46 @@ box-shadow: 0px 0px 20px #000000;
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.container2 {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 3px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container2 img {
+  float: left;
+  max-width: 50px;
+  width: 50%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container2 img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
