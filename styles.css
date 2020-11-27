@@ -39,7 +39,7 @@ a:active {
     
     .topnav {
       overflow: hidden;
-      background-color:rgb(13, 167, 214);
+      background-color:black/*rgb(13, 167, 214);*/
     }
     p.mix {
       border-style: dotted dashed solid double;
@@ -66,7 +66,7 @@ a:active {
     }
     
     .topnav a:hover {
-      background-color:gray;
+      background-color:rgb(13,167,214);
       display:block;
       transition: 0.5s;
     }
@@ -78,7 +78,7 @@ a:active {
     }
      .top2 {
       overflow: hidden;
-      background-color:green
+      background-color:red
     }
 
     /*.topnav a.active {
@@ -129,7 +129,7 @@ a:active {
     }
 
     .dropdown-content a:hover{
-      background-color:gray;
+      background-color:;
       transition: 0.5s;
     }
     
@@ -138,7 +138,7 @@ a:active {
     }
 
     .dropdown:hover {
-      background-color:gray;
+      background-color:rgb(13,167,214);;
       display: block;
       opacity: 1;
       transition: 0.5s;
@@ -159,7 +159,7 @@ a:active {
       overflow:hidden;
       float:right;
       padding: 30px 16px;
-      background-color:rgb(13, 167, 214);
+      background-color:black/*rgb(13, 167, 214);*/
       font-size:16px;
     }
 
