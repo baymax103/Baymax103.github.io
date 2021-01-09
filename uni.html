@@ -63,7 +63,40 @@
       The way to get started is to quit talking and begin doing. - Walt Disney.</i> <i class="fa fa-quote-right" aria-hidden="true"></i> |Networkingbay Version 4
       
 
+      <script>
+         // change background (hue-rotate filter)
+  var style = document.createElement('style');
+  style.innerHTML = `
+   body{
+    height: 100%;
+    animation: hu 15s infinite linear, rot 15s infinite linear;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    background-image: linear-gradient(45deg, #660066, #4ca3dd)
+    
+  }
+  
+  @keyframes hu{
+      100%{
+         filter: hue-rotate(360deg);
+      }
+  }
+  
+ @keyframes rot{
+     33%{
+         transform: rotateZ(-5deg)
+     }
+     66%{
+         transform: rotateZ(5deg)
+     }
+ }
+  `;
+  document.head.appendChild(style);
+/* If you have an idea on how I should customize 
+nitro type, let me know.
+*/
 
+      </script>
     </div>
     <script>
     function magnify(imgID, zoom) {
@@ -155,8 +188,7 @@
       </div>  
       <div class="col-right">
         <div class="newscoulumn"><h5 class="newscoulumn">News</h5> <p class="font12">Watch our newest video about typing cool symbols <a href="https://youtu.be/HHcUPRIjbyI">here</a></p>
-        <p class="font12">Scan your computer today with <a href="https://www.malwarebytes.com/business/">malwarebytes</a> and <a href="https://www.avast.com/en-us/index#pc">avast</a><p>See the Mutli-color Networking bay <a href="https://www.networkingbay.com/uni.html">Muti-color</a>.</p></p>
-
+        <p class="font12">Scan your computer today with <a href="https://www.malwarebytes.com/business/">malwarebytes</a> and <a href="https://www.avast.com/en-us/index#pc">avast</a></p>
         <hr>
         <h5>About</h5>
         <p class="font12">We are a group that teaches people all over the world about internet and computers.Networking Bay was made in April,2020 and explains the world of tech in deatailed way.</p>
