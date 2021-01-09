@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Networking Bay</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/test3.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+       
+  </head>
+  
+  </style>
+    <body>
+    <div class="header">
+      <div class="header-column">
+        <a href="https://www.networkingbay.com/"><img src="images/logonew.png" style="border: 3px solid red" height="79"  /></a>
+      </div>
+      <div class="header-column">
+        <div class="topnav">
+          <a href="https://baymax103.github.io/explore.html">Explore <img src="https://image.flaticon.com/icons/svg/2360/2360103.svg" width="14px" height="14px"></a>
+          <a href="https://baymax103.github.io/information.html">Information <img src="https://image.flaticon.com/icons/svg/2088/2088076.svg"height="14px" width="14px"></a>
+          <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA?view_as=subscriber">Channel <img src="https://image.flaticon.com/icons/svg/1384/1384012.svg" width="14px" height="14px"></a>
+          <div class="dropdown">
+            <button class="dropbtn">Learn<img src="https://image.flaticon.com/icons/svg/3068/3068327.svg" width="14px" height="14px"></button>
+            <div class="dropdown-content">
+              <a href="#">coming soon</a>
+              <a href="#">coming soon</a>
+              <a href="#">coming soon</a>
+            </div>
+          </div>
+          <input id="newtab-search-text" data-l10n-id="newtab-search-box-search-the-web-input" maxlength="256" type="search" autocomplete="off" aria-autocomplete="true" aria-controls="searchSuggestionTable" aria-expanded="false" placeholder="COMING SOON" aria-label="COMING SOON" title="COMING SOON"> 
+        </div> 
+      </div>
+        <!-- Smartsupp Live Chat script -->
+              <script type="text/javascript">
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = '806b92bc94e8e4281ac1a66f9f0b547c3c1d77c1';
+      window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+      })(document);
+      </script>
+      <div class="topnav">
+        <div class="right-bar">
+          <!-- <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos"><img src="https://image.flaticon.com/icons/svg/1384/1384060.svg" height="15px" /></a> -->
+          <div class="share-button">
+            <span>Share</span>
+            <a href="https://www.facebook.com/"><img src="https://image.flaticon.com/icons/svg/1384/1384053.svg"width="16px" height="16px"></a>
+            <a href="https://www.instagram.com/"><img src="https://image.flaticon.com/icons/svg/1409/1409946.svg" width="16px" height="16px"></a>
+            <a href="https://twitter.com/"><img src="https://image.flaticon.com/icons/svg/733/733579.svg" width="16px" height="16px"></a>
+            <a href="https://www.reddit.com/"><img src="https://image.flaticon.com/icons/svg/2111/2111589.svg" width="16px" height="16px"></a>
+            <a href="https://www.google.com/gmail/about/"><img src="https://image.flaticon.com/icons/svg/732/732200.svg" width="16px" height="16px"></a>
+          </div>
+
+        </div>
+      </div>
+    </div> 
+    <div class="top2">
+      Quote OF the MONTH <em>(November)</em>:<i class="fa fa-quote-left" aria-hidden="true">
+      The way to get started is to quit talking and begin doing. - Walt Disney.</i> <i class="fa fa-quote-right" aria-hidden="true"></i> |Networkingbay Version 4
+      
+
+      <script>
+         // change background (hue-rotate filter)
+  var style = document.createElement('style');
+  style.innerHTML = `
+   body{
+    height: 100%;
+    animation: hu 15s infinite linear, rot 15s infinite linear;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    background-image: linear-gradient(45deg, #660066, #4ca3dd)
+    
+  }
+  
+  @keyframes hu{
+      100%{
+         filter: hue-rotate(360deg);
+      }
+  }
+  
+ @keyframes rot{
+     33%{
+         transform: rotateZ(-5deg)
+     }
+     66%{
+         transform: rotateZ(5deg)
+     }
+ }
+  `;
+  document.head.appendChild(style);
+/* If you have an idea on how I should customize 
+nitro type, let me know.
+*/
+
+      </script>
+    </div>
+    <script>
+    function magnify(imgID, zoom) {
+      var img, glass, w, h, bw;
+      img = document.getElementById(imgID);
+      /*create magnifier glass:*/
+      glass = document.createElement("DIV");
+      glass.setAttribute("class", "img-magnifier-glass");
+      /*insert magnifier glass:*/
+      img.parentElement.insertBefore(glass, img);
+      /*set background properties for the magnifier glass:*/
+      glass.style.backgroundImage = "url('" + img.src + "')";
+      glass.style.backgroundRepeat = "no-repeat";
+      glass.style.backgroundSize = (img.width * zoom) + "px " + (img.height * zoom) + "px";
+      bw = 3;
+      w = glass.offsetWidth / 2;
+      h = glass.offsetHeight / 2;
+      /*execute a function when someone moves the magnifier glass over the image:*/
+      glass.addEventListener("mousemove", moveMagnifier);
+      img.addEventListener("mousemove", moveMagnifier);
+      /*and also for touch screens:*/
+      glass.addEventListener("touchmove", moveMagnifier);
+      img.addEventListener("touchmove", moveMagnifier);
+      function moveMagnifier(e) {
+        var pos, x, y;
+        /*prevent any other actions that may occur when moving over the image*/
+        e.preventDefault();
+        /*get the cursor's x and y positions:*/
+        pos = getCursorPos(e);
+        x = pos.x;
+        y = pos.y;
+        /*prevent the magnifier glass from being positioned outside the image:*/
+        if (x > img.width - (w / zoom)) {x = img.width - (w / zoom);}
+        if (x < w / zoom) {x = w / zoom;}
+        if (y > img.height - (h / zoom)) {y = img.height - (h / zoom);}
+        if (y < h / zoom) {y = h / zoom;}
+        /*set the position of the magnifier glass:*/
+        glass.style.left = (x - w) + "px";
+        glass.style.top = (y - h) + "px";
+        /*display what the magnifier glass "sees":*/
+        glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
+      }
+      function getCursorPos(e) {
+        var a, x = 0, y = 0;
+        e = e || window.event;
+        /*get the x and y positions of the image:*/
+        a = img.getBoundingClientRect();
+        /*calculate the cursor's x and y coordinates, relative to the image:*/
+        x = e.pageX - a.left;
+        y = e.pageY - a.top;
+        /*consider any page scrolling:*/
+        x = x - window.pageXOffset;
+        y = y - window.pageYOffset;
+        return {x : x, y : y};
+      }
+    }
+    </script>
+    <div class="column-container">
+      <div class="col-left">
+        <div class="img-magnifier-container">
+          <img id="myimage" src="https://www.scienceabc.com/wp-content/uploads/2016/01/computer-cabinet.jpg"  width="590" height="400">
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button> 
+
+        <script>
+        /* Initiate Magnify Function
+        with the id of the image, and the strength of the magnifier glass:*/
+        magnify("myimage", 3);
+        </script>
+
+      </div>
+
+
+      <div class="middle">
+
+        <h3>Viruses <strong>TIPS & EX:</strong></h3>
+         <img src="https://www.fightingidentitycrimes.com/wp-content/uploads/2014/06/trojan.jpg" width="80" height="80" class="textwrap">
+        
+
+      <p class="font12">A trojan horse is a dangerous virus that records all the things you type. Such as typing in your pasword. The purpose of the trojan horse is to steal paswords and use them. An example is like some website have custom cursors and when you download and use them they will inject a virus into your computer.</p>
+      <img src="https://3nlm2c1gjj0z2ju16293909h-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/malwarebytes-for-mac-613x400.jpg" class="textwrap" Width="80" height="80">
+      <p class="font12">Some tips that we recomend for you are before you donwload from a website that you never been too do some research. How to do research?<strong>It's easy, all you need to do is go to wikipedia and then search the site name. If the site doesn't show up it's most likely a bad site.</strong></p>
+      <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/46d31466000064000500a775/0x0.png" width="80" height="80" class="textwrap">
+      <p class="font12">If you want to see if you have a virus use the apps Malwarebytes and Avast to scan your files. Malwarebytes and Avast are trusted websites so no need to worry that it will interject viruses. Read more about <a href="https://en.wikipedia.org/wiki/Malwarebytes_(software)">Malwarebytes</a> and <a href="https://en.wikipedia.org/wiki/Avast_Antivirus">Avast</a> on wikipedia.</p>
+      <div class="tooltip">computer scaners
+          <span class="tooltiptext">It scans your laptop for viruses</span>
+        </div>
+      </div>  
+      <div class="col-right">
+        <div class="newscoulumn"><h5 class="newscoulumn">News</h5> <p class="font12">Watch our newest video about typing cool symbols <a href="https://youtu.be/HHcUPRIjbyI">here</a></p>
+        <p class="font12">Scan your computer today with <a href="https://www.malwarebytes.com/business/">malwarebytes</a> and <a href="https://www.avast.com/en-us/index#pc">avast</a></p>
+        <hr>
+        <h5>About</h5>
+        <p class="font12">We are a group that teaches people all over the world about internet and computers.Networking Bay was made in April,2020 and explains the world of tech in deatailed way.</p>
+        <h5><p id="demo"></p>
+        <h5>Tools</h5>
+        <p class="font12">COMING SOON</p>
+          
+      
+      <script>
+      var myVar = setInterval(myTimer ,1000);
+      function myTimer() {
+      var d = new Date();
+      document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+      }
+        </script></h5>
+        <hr>
+      
+          
+        </div>
+        <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=false" type="text/javascript"></script>
+      </div>
+    </div>
+    
+
+   
+    <h2 id="cool">Computers</h2>
+      <p style="border:3px solid red"class="content-box-testshadow">A <strong>computer</strong> is a electronic that can store data. Computers are programmed to do many things like when a user clicks on something it will take them somewhere. Their are millions of websites online that people can go to to get education or play games and many more.<strong>Programming</strong> programming the computer is very complex and it will take many days they have to use code like Python or html and many other languages.</p>
+      <p></p>
+      <p style="border:3px solid red"class="content-box-testshadow">A <strong>CPU</strong> is like the brian of the computer. CPU stands for Central Processing Unit. Some main parts inside a CPU are like a <Strong>Imm Gen</Strong> and <Strong>AIU</Strong> which stands for Arithmetic logic unit. The AIU does the math for you in a computer. Imm Gen stands for Imediate generator. The Imm Gen generates numbers from circuit in the computer.Another part of a computer is the <strong>motherboard.</strong> A motherboard is the main ciruit in the electronic system. The motherboard allows communication with the crucial electronic components. The motherboard is connected with the CPU and <strong>Ram.</strong> Ram is how much memory a computer has. The most important parts of a motherboard are a <strong>video card slot</strong> and <strong>IDE and SATA Ports.</strong> and many more. A video card slot is a card that connects to the motherboard it also stores your videos on your computers in some cases. A Sata port is a plugin on the side of your computer you plugin your hard drives.  <a href="https://www.networkingbay.com/explore"></a>
+      </p>
+
+      <p style="border:3px solid red" class="content-box-testshadow"><stonrg>Internet</stonrg> is a computer netowrk that uses Internet protocal suit. Some computers are connected to a internet and other computers aren't. To enter a internet line you have to type in the pasword for it. Some stores have internet provided for you and they tell you the internet pasword such as starbucks. In October their were 1.9 billion websites on internet. In 1989 Tim Berners-Lee invented the worldwide internet. "Think of internet as an iceberg". The surface of the iceberg is bing google and other good sites. The part that is in the middle of the iceberg is called the <strong>Deep web.</strong> The deep web includes social media scientific records and acedemic information. The very bottom of the iceberg is called the <strong>Dark web.</strong> The dark web includes things that are bad such as private comunications and illegal information.</p>
+
+      <p style="border:3px solid red" class="content-box-testshadow">A <strong>laptop</strong> is a small machine that is portable and can be brought around. Laptops originally were designed to use it on your lap. Every laptop has it's own <strong>operating system</strong> An operating system is like windows or ubuntu and many more. Modern day laptops are usually used for playing games,doing work and using the web. Some high tech laptops have <strong>touch screen</strong> A touch screen laptop is a laptop that can be used by touching it's screen. Most modern day laptops have a <strong>webcam.</strong> Webcam stands for webcamera a webcam is a camera that is on the top of your screen. It is usually a small circle. </p>
+
+
+      <p style="border:3px solid red" class="content-box-testshadow">What do you like to do on your free time. Well most children spend their free time on the <strong>xbox</strong> to play gmaes. Well if microsoft wasen't made then the <strong>xbox</strong> wouldn't be a thing. Imagine having to go through life without and xbox! One such story about microsoft is a boy made a website called <strong>mikerowsoft</strong> and then <em>Microsoft</em> got mad and then they made a deal with the boy. The deal was they would give a xbox to him and exchange the boy would take off the website. Microsoft linked mikerowsoft to their home page.</p>
+
+      <p style="border:3px solid red" class="content-box-testshadow">Did you ever know the web is dangerous if not read this phagraph. One way the web is dangerous is if you download random things on websites it can give you viruses. A virus is something that affects you computer it can sometimes be very dangerous. Such as one type of virus called the <strong>"Trojan horse"</strong> records all the things you type on your computer. It is called trojen horse because it came from the greek story called trojan horse. Read more about <a href="https://en.wikipedia.org/wiki/Trojan_horse_(computing)">trojan horse here</a>. Some other virus's you could get are <strong>"winbing" and "winyahoo".</strong> The winbing and winyahoo virus work is when you search something on bing it will redirect you to a yahoo search. The url will just change suddenly. Some lures on getting virus's are when you download something from a bad website.An example is like some website have custom cursors and when you download and use them they will inject a virus into your computer. <strong>WARNING!! DO SOME RESEARCH ABOUT A WEBSITE BEFORE YOU DOWNLOAD IT.HOW TO DO RESEARCH? WELL,FIRST GO TO WIKIPEDIA AND SEARCH THE SITE UP.IF THE SITE DOES NOT SHOW UP IT IS MOST LIKELY A BAD WEBSITE.</strong>If you do get a virus you should use Malewarebytes or Avast to fixed the problem of the virus.</p>
+
+      <div>
+
+        <h2 id="baymax">Change Log</h2>
+        <p>[4-23-2020] : NetworkingBay Was founded</p>
+        <p>[11-26-2020] : Added Change Log</p>
+        <p>[11-26-2020] : Updated NetworkingBay to version 4</p>
+        <p>[11-26-2020] : NetworkingBay version 4 includes new colors for the topbar and a new quote of the month!!!</p>
+        <p>[11-26-2020] : Added Rules,follow the rules please.</p>
+        <p>[11-29-2020] : Networkingbay got it's new</p>
+        <p class="font12"><strong><em>NOTE:</em></strong> <em>The Change log is a log to record updates and</em> <strong>imporant</strong> <em>parts that shape this website.</em></p>
+
+        
+
+        <h2 id="baymax">Image gallery</h5>
+        <img src="https://intelligentky.com/wp-content/uploads/2018/08/Dark-Web.jpg" width="250" height="250">
+        <img src="https://images.idgesg.net/images/article/2018/10/9th_gen_18-100777188-large.3x2.jpg" width="250" height="250">
+        <img src="https://sites.google.com/site/atifcomputers/_/rsrc/1417630230272/processor-facts/logic.png" width="250" height="250">
+        <img src="https://4.bp.blogspot.com/-cm_K_YYQQR0/UhF7TkJSG3I/AAAAAAAADxU/fCsobIOPsTc/s1600/mobo+parts.jpg" width="250" height="250">
+        <img src="https://i.stack.imgur.com/6XXFR.gif" height="250" width="250">
+        <img src="https://fthmb.tqn.com/0J8L4RgZmwKJ8-PtbVwKfmpzARs=/1288x790/filters:fill(auto,1)/xfx-amd-radeon-hd-5450-video-card-57c764225f9b5829f4b1d609.jpg" height="250" width="250">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/02/uk-electronics/product_content/Acer/aspire_5732Z_5740_crystal_eye.jpg" width="250" height="250">
+        <img src="https://th.bing.com/th/id/OIP.pUuKSqDHf1Zd-ijEuFIZJgHaE8?pid=Api&rs=1" width="250" height="250">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41lrveV6cVL.jpg" width="250">
+        
+      </div>
+      
+    <!-- footer new -->
+    <!-- footer new -->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-column horizontal-center">
+          <a href="https://www.networkingbay.com/" class="unstyled">
+            <img src="images/logonew.png" width="180" height="67"
+             style="border: 3px solid red"></img>
+             <!-- <div class="cssload-loader">
+                <div class="cssload-inner cssload-one"></div>
+                <div class="cssload-inner cssload-two"></div>
+                <div class="cssload-inner cssload-three"></div>
+              </div> -->
+            </h2>
+          </a>
+        </div>
+
+        <div class="footer-column footer-link-column">
+          <p class="footer-section-title">RESOURCES</p>
+          <a href="https://docs.google.com/spreadsheets/d/1h0x0koDCLrN0eXH7uM4E9sMqR5dbRqYd506O2Ikenkg/edit?usp=sharing" class="footer-link unstyled"><p class="footer-link-text">Charts</p></a>
+          <a href="https://www.networkingbay.com/404.html" class="footer-link unstyled"><p class="footer-link-text">Coming</p></a>
+          <a href="https://www.networkingbay.com/404.html" class="footer-link unstyled"><p class="footer-link-text">Flashcards</p></a>
+        </div>
+
+        <div class="footer-column footer-link-column">
+          <p class="footer-section-title">CURRICULUM</p>
+          <a href="https://www.youtube.com/channel/UCUG7XiAjSTUOGIitJPbM1WA/videos" class="footer-link unstyled"><p class="footer-link-text">Videos</p></a>
+          <a href="https://www.networkingbay.com/explore.html" class="footer-link unstyled"><p class="footer-link-text">Images</p></a>
+          <a href="https://www.networkingbay.com/explore.html" class="footer-link unstyled"><p class="footer-link-text">Explore</p></a>
+        </div>
+
+        <div class="footer-column footer-link-column">
+          <p class="footer-section-title">MORE</p>
+          <a href="https://github.com/baymax103/Baymax103.github.io" class="footer-link unstyled"><p class="footer-link-text">Github</p></a>
+          <a href="https://forms.gle/ojYXBT1jvzTDVHNK9" class="footer-link unstyled"><p class="footer-link-text">Report Errors</p></a>
+          <a href="https://forms.gle/urVhacRW8qbjZkRP8" class="footer-link unstyled"><p class="footer-link-text">Requests</p></a>
+        </div>
+          <div class="footer-column footer-link-column no-hover-bg-footer-column">
+           <!-- flag counter -->
+          <a href="https://info.flagcounter.com/tYZ8"><img src="https://s05.flagcounter.com/count2/tYZ8/bg_FF0000/txt_000000/border_CCCCCC/columns_4/maxflags_20/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Visitors" border="0"></a>
+          </div>
+        </div>
+
+
+      <div class="footer-bottom">
+        <strong>Email Us @ networkinghelp17@gmail.com</strong>
+        Templete inspired by geographyalmanac
+      </div>
+    <!--END FOOTER-->
+    </div>
+      
+      
+</html>
