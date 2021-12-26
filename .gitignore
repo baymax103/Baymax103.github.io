@@ -1,1 +1,7 @@
 .jekyll-cache
+_site
+Gemfile.lock
+*.gem
+.sass-cache
+.jekyll-metadata
+.DS_Store
