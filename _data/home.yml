@@ -41,9 +41,9 @@ project_entries:
   #   desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Biden inaguration speech
-    url: bideninagurationspeech
-    desc: Biden Inaguration speech transcript
+  - title: Biden inauguration speech
+    url: bideninaugurationspeech
+    desc: Biden Inauguration speech transcript
     highlight: 
 
   # - title: Cookie

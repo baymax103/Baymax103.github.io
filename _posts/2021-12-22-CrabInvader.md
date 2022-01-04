@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crab Invader
+title: Crab Invaders
 ---
 This is a game I coded.
 <h2>Instructions</h2>
