@@ -1,13 +1,9 @@
 navbar_entries:
   - title: /Home
     url: /
-
-  - title: /Posts
-    url: blog
-
   - title: /Contact
     url: contact
-  - title: /Misc
+  - title: /History
     url: misc
 
 project_entries:
