@@ -34,7 +34,7 @@ theme_config:
     title_projects: Recent Publications
     title_misc_list: Details
     title_blog: All Publications
-    title_old_projects: Old Publications
+    # title_old_projects: Old Publications
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
