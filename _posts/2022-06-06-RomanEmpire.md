@@ -35,40 +35,46 @@ Roman architecture was influenced by Greek style. They built aqueduts,amphitheat
 - Library of Celsus (Selçuk, Turkey)
 
 #### Colosseum
+![Colosseum](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1200px-Colosseo_2020.jpg)
 Many people ask why did Gladiators fight to death? The answer is that the colloseum was built solely for entertainment. Gladiators fought each other, and animals. Slaves were often forced to fight each other. Sometimes during fights, Gladiators would ask the crowd to show mercy or to not.
 
 #### Pantheon
+![Pantheon](https://www.planetware.com/photos-large/I/italy-rome-pantheon-exterior-view.jpg)
 The Pantheon was built to honor the gods and goddesses of Rome. The building of The Pantheon was comissioned by Marcus Agrippa during Augustus's (Octavian) rule.
 
 #### Pont du Gard
+![Pont du Gard](https://cdn.getyourguide.com/img/location/59621add2cbdc.jpeg/99.jpg)
 Pont du Gard is an ancient bridge that was consutrcted from 40-60 AD. It crosses the Gardon river, and is 160 feet tall (Tallest of Roman aqueduct bridges), as well as the best condition. The arches of the bridge are made from Shelly limestone. 
 
 #### Library of Celsus
+![Library of Celsus](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ephesus_Celsus_Library_Fa%C3%A7ade.jpg/300px-Ephesus_Celsus_Library_Fa%C3%A7ade.jpg)
+The Library of Celsus is located in what is now called Selçuk, Turkey. The building was comissioned around 110 AD by consul member, Gaius Julius Aquilla, as a funerary monument for his father. This building is the only remaining example of a library from the Roman Empire, as well as one of the largest in the Roman era. The interior is roughly 2000 feet. Experts still do not know if a fire, earthquake, or Gothic invasion resulted in the damage.
 
 
 #### References/Sources
+<span style="font-family: papyrus;">
 "The Roman Republic." Ducksters, 2022, <a href="https://www.ducksters.com/history/ancient_rome_republic.php">https://www.ducksters.com/history/ancient_rome_republic.php</a>
-
+<br>
 "The Fall of Rome." Ducksters, 2022, <a href="https://www.ducksters.com/history/ancient_rome/fall_of_rome.php">https://www.ducksters.com/history/ancient_rome/fall_of_rome.php</a>
-
+<br>
 "First Triumvirate." Wikipedia, 4 Jun. 2022, <a href="https://en.wikipedia.org/wiki/First_Triumvirate">https://en.wikipedia.org/wiki/First_Triumvirate</a>
-
+<br>
 "Second Triumvirate." Wikipedia, 3 May 2022, <a href="https://en.wikipedia.org/wiki/Second_Triumvirate">https://en.wikipedia.org/wiki/Second_Triumvirate</a>
-
+<br>
 Gill, N.S. "The First and Second Triumvirates of Rome." Thoughtco, 26 Jan 2019, <a href="https://www.thoughtco.com/first-and-second-triumvirates-of-rome-117560#:~:text=A%20triumvirate%20is%20a%20system,three%20men%20(tres%20viri).">https://www.thoughtco.com/first-and-second-triumvirates-of-rome-117560#:~:text=A%20triumvirate%20is%20a%20system,three%20men%20(tres%20viri).</a>
+<br>
 Ambler, Jessica. "An introduction to ancient Roman architecture." Smart History, 8 Aug. 2015, <a href="https://smarthistory.org/roman-architecture/">https://smarthistory.org/roman-architecture/</a>
-
+<br>
 Atkins, Harry. "10 of the Best Roman Buildings and Sites Still Standing in Europe." History Hit, 25 Jun. 2018, <a href="https://www.historyhit.com/the-best-roman-buildings-and-sites-still-standing-in-europe/">https://www.historyhit.com/the-best-roman-buildings-and-sites-still-standing-in-europe/</a>
-
+<br>
 "Colosseum." Wikipedia, 20 Jun. 2022, <a href="https://en.wikipedia.org/wiki/Colosseum">https://en.wikipedia.org/wiki/Colosseum</a>
-
+<br>
 "Pantheon, Rome." Wikipedia, 26 Jun. 2022, <a href="https://en.wikipedia.org/wiki/Pantheon,_Rome">https://en.wikipedia.org/wiki/Pantheon,_Rome</a>
-
+<br>
 "Pont du Gard." Wikipedia, 16 May 2022, <a href="https://en.wikipedia.org/wiki/Pantheon,_Rome">https://en.wikipedia.org/wiki/Pantheon,_Rome</a>
-
-"Library of Celsus." Wikipedia, 25 Jun. 2022, <a href="https://en.wikipedia.org/wiki/Pantheon,_Rome">https://en.wikipedia.org/wiki/Pantheon,_Rome</a>
-
-
+<br>
+"Library of Celsus." Wikipedia, 25 Jun. 2022, <a href="https://en.wikipedia.org/wiki/Library_of_Celsus">https://en.wikipedia.org/wiki/Library_of_Celsus</a>
+</span>
 
 ---
 
